@@ -65,7 +65,6 @@ header{
 }
 header img{
     display:flex;
-    flex-direction: row-reverse;
 }
 nav{
     display:flex;
@@ -126,13 +125,17 @@ p {
 .middle-content .boxes .box{
     width: 12.5%;
     height: 10rem;
-    background:teal;
     margin: 2rem 2.5%;
+    font-size:1.6rem;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-} 
+}
+
+.box:nth-child(1){
+    background:teal;
+}
 .box:nth-child(2){
     background:gold;
 }
