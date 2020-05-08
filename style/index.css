@@ -64,12 +64,7 @@ header{
     margin-top: 1.2%;
     margin-left: 5%;
 }
-img.lights{
-    border: 3rem solid gray;
-    display: flex;
-    align-items: center;
 
-}
 h1, h2, h3, h4, h5 {
     font-size: 1.8rem;
     margin-bottom: 1.5rem;
@@ -81,7 +76,7 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 45%;
     margin: 0 auto;
 }
 
@@ -118,14 +113,16 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background:teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+.box:nth-child(2){
+    background:gold;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
