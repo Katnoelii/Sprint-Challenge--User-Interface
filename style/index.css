@@ -56,7 +56,6 @@ html{
 }
 
 html, body {
-    height: 100%;
     font-family: 'Roboto', sans-serif;
 }
 header{
@@ -64,15 +63,25 @@ header{
     margin-left: 5%;
     margin-bottom: 1.2%;
 }
+header img{
+    display:flex;
+    flex-direction: row-reverse;
+}
 nav{
     display:flex;
-    justify-content: space-around;
+    justify-content:center;
+    color:black;
+    font-size: 1.4rem;
+    padding:2rem;
 }
 
 h1, h2, h3, h4, h5 {
+    display:flex;
     font-size: 1.8rem;
+    margin-top:1.5rem;
     margin-bottom: 1.5rem;
     font-family: 'Rubik', sans-serif;
+    text-align: left;
 }
 
 p {
@@ -80,8 +89,8 @@ p {
 }
 
 .container {
-    width: 45%;
-    margin: 0 auto;
+    width: 55%;
+    margin:auto;
 }
 
 .top-content {
