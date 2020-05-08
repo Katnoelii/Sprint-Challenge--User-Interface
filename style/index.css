@@ -80,7 +80,7 @@ a{
     color:black;
     text-decoration:none;
     font-size:1.4rem;
-    margin-bottom:0;;
+    margin-bottom:0;
 }
 
 h1, h2, h3, h4, h5 {
@@ -207,18 +207,15 @@ footer nav a {
     margin-right:20%
 }
 @media(max-width:800px){
-    header img{
-        margin:auto;
-        width:35%;
+    .container{
+        width:100%;
     }
-    a{
-        font-size:1.8rem;
+    .top-content{
         display:flex;
-        justify-content: space-evenly;
+        flex-direction:column;
+        width:200;
     }
-    p{
-        display:flex;
-        flex-flow: row wrap;
+    .top-content .text-container{
+        width: 100%;
     }
-
 }
