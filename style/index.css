@@ -59,13 +59,12 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 header{
-    margin-top: 1.2%;
-    margin-left: 5%;
-    margin-bottom: 1.2%;
+    width:55%;
+    margin:0 auto;
 }
 header img{
     display:flex;
-    margin-bottom:2rem;
+
 }
 nav{
     display:flex;
@@ -207,8 +206,14 @@ footer nav a {
     margin-right:20%
 }
 @media(max-width:800px){
-    nav{
+    header{
         width:100%;
+        display:flex;
+        justify-content:space-between;
+    }
+    header nav a{
+        margin-left:15px;
+
     }
     .container{
         width:100%;
@@ -236,11 +241,35 @@ footer nav a {
         width:100%;
         display:flex;
         flex-flow:row wrap;
-        justify-content:space-around;
+        justify-content:space-evenly;
     }
-
     .middle-content .boxes .box{
-        width:300px;
+        margin:8%;
+        width:25%;
+        height:14rem;
     }
-
+    .bottom-content{
+        display:flex;
+        flex-flow: row wrap;
+    }
+    .text-container{
+        width:45%;
+    }
+    footer{
+        justify-content:center;
+    }
+    footer nav a{
+        margin-left:20%;
+        font-size:1.7rem;
+    }
+}
+@media(max-width:500px){
+    header nav{
+        display:flex;
+        flex-direction: column;
+    }
+    nav a{
+        display:flex;
+        flex-direction: column;
+    }
 }
