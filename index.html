@@ -1,8 +1,35 @@
+<!-- SPRINT QUESTIONS -->
+<!--
+1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+Semantic HTML tags are special tags that we use in order to provide meaning to our code. 
+This helps with accessability for things like screen readers and mobile devices.
+
+2. What are the 4 areas of the box model?
+
+The 4 areas of the box model are Content, Padding, Border, and Margin.
+
+3. While using flexbox, what axis does the following property work on: align-items: center?
+
+cross-axis.
+
+4. Explain why git is valuable to a team of developers.
+
+Git allows multiple developers to access the same content at the exact same time.
+This helps keep group projects efficient and less likely to have overwritten code.
+
+5. Define mobile-first design in your own words.
+
+Mobile first design is considering the responsiveness and acessability of your website to mobile platforms (smaller screens!)
+In the modern day this is **Extremely** important!
+-->
+
 <!doctype html>
 
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1">
 
   <title>Sprint Challenge - Home</title>
 
@@ -10,11 +37,21 @@
   <link rel="stylesheet" href="style/index.css">
 
 </head>
-
 <body>
+    <header>
+        <img src="assets/lambda-black.png" alt="Black Lambda logo"/>
+        <nav>
+            <a href="#">Home</a>
+            <a href="http://127.0.0.1:5500/about.html#">About</a>
+            <a href="http://127.0.0.1:5500/products.html#">Products</a>
+            <a href="http://127.0.0.1:5500/blog.html#">Blog</a>
+            <a href="http://127.0.0.1:5500/contact.html#">Contact</a>
+        </nav>
+    </header>
     <div class="container">
    
         <section class="top-content">
+            <img src="assets/jumbo.jpg" alt="exposure timelapse image of a highway"/>
             <div class="text-container">
                 <h2>The Future</h2>
                 <p>Proin sed quam sed tellus vestibulum ultrices quis in nunc. Phasellus id dui id tortor tincidunt efficitur. Proin faucibus imperdiet erat, non varius lacus. Maecenas non nisl id turpis egestas tincidunt. Nam condimentum venenatis magna eget finibus.</p>
